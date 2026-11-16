@@ -1,0 +1,16 @@
+* { box-sizing:border-box; }
+body { margin:0; background:#f5f5f5; color:#222; font-family:Arial, Helvetica, sans-serif; }
+.header { background-color:white; padding:15px; text-align:center; }
+.header img { width:280px; max-width:100%; height:auto; }
+.nav_menu { overflow:hidden; background-color:rgb(252,139,0); }
+.nav_menu a { float:left; font-family:Arial,Helvetica,sans-serif; display:block; color:white; font-weight:bold; text-align:center; padding:14px 16px; text-decoration:none; }
+.nav_menu a:hover, .nav_menu a:focus { background-color:wheat; color:#8a4300; }
+.nav_menu a[aria-current=page] { background-color:#a74f00; }
+main { max-width:850px; min-height:300px; margin:24px auto; padding:24px; background:white; }
+.footer { background-color:white; padding:15px; text-align:center; border-top:3px solid rgb(252,139,0); }
+.field { display:grid; grid-template-columns:145px 1fr; gap:12px; margin:14px 0; }
+input,textarea,button { font:inherit; padding:8px; } textarea { width:100%; }
+fieldset { margin:14px 0; } button { background:#a74f00; color:white; border:0; cursor:pointer; }
+table { border-collapse:collapse; width:100%; } th,td { border:1px solid #aaa; padding:10px; text-align:left; }
+iframe { width:100%; aspect-ratio:16/9; border:0; }
+@media(max-width:560px) { main { margin:12px; padding:16px; } .field { grid-template-columns:1fr; } .nav_menu a { float:none; text-align:left; } }
