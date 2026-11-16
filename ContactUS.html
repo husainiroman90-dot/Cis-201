@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact US</title>
+<link rel="stylesheet" href="StyleSheet.css">
+<script src="contact.js" defer></script>
+</head>
+<body>
+<header id="header" class="header"><a href="https://yu.edu.sa/"><img src="yu_logo.png" alt="Al Yamamah University"></a></header>
+<nav id="navigation" class="nav_menu" aria-label="Main navigation"><a href="index.html">Home</a><a href="AboutMe.html">About me</a><a href="ContactUS.html" aria-current="page">Contact US</a></nav>
+<main><h1>Contact US</h1><p>Complete the contact form below.</p><form id="contactForm">
+<div class="field"><label for="name">Name</label><input id="name" name="name" type="text" required></div>
+<div class="field"><label for="email">Email</label><input id="email" name="email" type="email" required></div>
+<div class="field"><label for="phone">Phone number</label><input id="phone" name="phone" type="tel"></div>
+<fieldset><legend>Gender</legend><label><input type="radio" name="gender" value="male"> Male</label> <label><input type="radio" name="gender" value="female"> Female</label></fieldset>
+<fieldset><legend>Social media</legend><label><input type="checkbox" name="social" value="linkedin"> LinkedIn</label> <label><input type="checkbox" name="social" value="facebook"> Facebook</label> <label><input type="checkbox" name="social" value="twitter"> Twitter</label></fieldset>
+<div class="field"><label for="feedback">Feedback</label><textarea id="feedback" name="feedback" rows="5" required></textarea></div>
+<button type="submit">Submit</button> <button type="reset">Reset</button><p id="formStatus" role="status"></p></form></main>
+<footer id="footer" class="footer"><p>Student Number: 202311364</p><p>First Name: Youssef | Last Name: Abdalsatar</p><p>Email: <a href="mailto:202311364@yu.edu.sa">202311364@yu.edu.sa</a></p></footer>
+</body>
+</html>
